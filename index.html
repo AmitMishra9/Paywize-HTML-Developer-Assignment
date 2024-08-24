@@ -32,34 +32,34 @@
         </div>
         <ul class="nav-list">
             <li>
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
             </li>
             <li>
-                <a href="#">About us</a>
+                <a href="#about">About us</a>
             </li>
             <li>
-                <a href="#">Products</a>
+                <a href="#products">Products</a>
             </li>
             <li>
-                <a href="#">Blog</a>
+                <a href="#blog">Blog</a>
             </li>
             <li>
-                <a href="#">Shop</a>
+                <a href="#shop">Shop</a>
             </li>
             <li>
-                <a href="#">Services</a>
+                <a href="#services">Services</a>
             </li>
             <li>
-                <a href="#">Gallery</a>
+                <a href="#gallery">Gallery</a>
             </li>
             <li>
-                <a href="#">Contact us</a>
+                <a href="#contact">Contact us</a>
             </li>
         </ul>
         <div class="hamburger">&#9776;</div>
     </nav>
     <!--  Main Section  -->
-    <main class="hero-section">
+    <main  id="home" class="hero-section">
         <div class="content-container">
             <h4>
                 Welcome to
@@ -91,7 +91,7 @@
 
   
     <!-- Products  Section  -->
-    <section class="top-products-section">
+    <section id="products" class="top-products-section">
         <h3 class="section-title">Top Products</h3>
         <img src="/Assets/leaf.PNG" alt="Leaf Image" class="leaf-image">
         <div class="product-grid-container">
@@ -157,14 +157,21 @@
 
    
     <!--   About Section    -->
-    <section class="about-fresh-meal">
+    <section  id="about" class="about-fresh-meal">
         <h3>About Fresh Meal</h3>
         <div class="divider">
             <img src="Assets/leaf.png" alt="Leaf icon" class="leaf-image">
         </div>
         <div class="about-content">
             <div class="image-container">
-                <img src="/Assets/yogurt.png" alt="Fresh meal with yogurt and strawberries">
+                <div class="image-grid">
+                    <div class="image-part" style="background-image: url('/Assets/yogurt.png');"></div>
+                    <div class="image-part" style="background-image: url('/Assets/yogurt.png');"></div>
+                    <div class="image-part" style="background-image: url('/Assets/yogurt.png');"></div>
+                    <div class="image-part" style="background-image: url('/Assets/yogurt.png');"></div>
+                    <div class="image-part" style="background-image: url('/Assets/yogurt.png');"></div>
+                    <div class="image-part" style="background-image: url('/Assets/yogurt.png');"></div>
+                </div>
             </div>
             <div class="text-content">
                 <h3>Freshmeal is a long established fact that a reader will be distracted</h3>
@@ -180,7 +187,7 @@
 
 
     <!--   Services  Section    -->
-    <section class="services-container">
+    <section id="services" class="services-container">
         <div class="title">
             <h2>Our Services</h2>
             <img src="Assets/leaf.png" alt="Leaf icon" class="leaf-image">
@@ -196,7 +203,7 @@
                 <img src="/Assets/icons/bag.svg"  width="90.711" height="90.711" viewBox="0 0 90.711 90.711  alt="Delivery icon" class="service-icon">
                 <div class="service-title">30 Days Return Services</div>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a href="#" class="read-more">Read More</a>
+                <a href="#" class="read-more highlight">Read More</a>
             </div>
             <div class="service-card">
                 <img src="/Assets/icons/usd.svg"  width="90.711" height="90.711" viewBox="0 0 90.711 90.711  alt="Delivery icon" class="service-icon">
@@ -213,7 +220,7 @@
 
     <!--  Timer   Section   -->
 
-<section class="deals-container">
+<section id="shop" class="deals-container">
     <h3 class="deals-title">
         Big Deals of the Week
     </h3>
@@ -242,7 +249,7 @@
 
 <!-- Search  Section   -->
 
-<section class="Search-container">
+<section id="blog" class="Search-container">
     <div class="image">
         <img src="Assets/rasberry.png" alt="Raspberries">
     </div>
@@ -260,7 +267,7 @@
 
 <!-- Contact Section -->
 
-<section class="contact-container">
+<section id="contact"  class="contact-container">
     <div class="contact-details">
         <h3>Contact us</h3>
         <img src="Assets/leaf.png" alt="Leaf icon" class="contact-leafImg">
@@ -298,7 +305,13 @@
             <h3>About us</h3>
             <p>It was popularized in 1960 with the release of latest sheets containing lorem ipsum passage</p>
             <a href="#" class="read-more">Read More</a>
+
         </div>
+
+        <span class="scroll-to-top" onclick="scrollToTop()">
+            <i class="arrow-up"></i>
+        </span>
+
         <div class="footer-section">
             <h3>Quick Links</h3>
             <ul>
@@ -331,6 +344,7 @@
                 <img src="Assets/food-table.jpg" alt="Instagram photo">           
              </div>
         </div>
+        
         </footer>
 
 
